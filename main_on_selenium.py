@@ -89,7 +89,7 @@ if __name__ == "__main__":
     cursor.execute("SELECT name, link FROM Series")
     # If database was updated and some values are gone. It'll try to parse everything
     db.commit()
-    for series in cursor.fetchall()[19:20]:
+    for series in cursor.fetchall():
         try:
             product_urls = sub_page_scrapper(series[1])
         except selenium.common.exceptions.InvalidArgumentException:
