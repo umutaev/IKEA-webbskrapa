@@ -1,6 +1,5 @@
 # IKEA WEBBSKRAPA
-This project was inspired by IKEA article system, and the lack of keyed catalogs. 
-So, I decided to create not only the catalog, but something, that can keep it updated.
+This project was inspired by the IKEA article system and the lack of keyed catalogs. So, I decided to create not only the catalog but something, that can keep it updated.
 
 ## Requirements
 I haven't made a requirements.txt yet, so, to run my code you need:
@@ -21,4 +20,4 @@ Note that selenium use X-server while run, so it'll open and close a bunch of Ch
 - [x] Database writing
 - [ ] Some kind of api
 - [ ] .xlsx export
-- [ ] Add requirements.txt
+- [x] Add requirements.txt
