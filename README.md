@@ -21,3 +21,4 @@ Note that selenium use X-server while run, so it'll open and close a bunch of Ch
 - [x] Database writing
 - [ ] Some kind of api
 - [ ] .xlsx export
+- [ ] Add requirements.txt
