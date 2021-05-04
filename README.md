@@ -2,16 +2,16 @@
 This project was inspired by the IKEA article system and the lack of keyed catalogs. So, I decided to create not only the catalog but something, that can keep it updated.
 
 ## Requirements
-I haven't made a requirements.txt yet, so, to run my code you need:
-1. BeautifulSoup
-2. Requests
-3. Selenium
-4. Chrome web browser
-5. Chrome web driver
+Now you can install everything you need via requirements.txt file. `pip install -r requirements.txt` 
+However, you anyway have to install Chrome browser manually.
+
 
 ## Usage
 Run `main_on_selenium.py` and wait until it parse everything.
+It takes a lot of time, so my recommendation is to use remote server with Xvfb.
 Note that selenium use X-server while run, so it'll open and close a bunch of Chrome automatically.
+
+Personally, I don't recommend running it on macOS because there were some issues regarding selenium on macOS.
 
 ## TODO
 - [x] Contents page scrapper
